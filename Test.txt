@@ -1,0 +1,40 @@
+parent-db:
+_id
+username
+password
+email
+name: F+L
+phone
+default search settings: region/city/ RANGE(km) / rating / price-range / age
+
+
+nanny-db
+_id
+username
+password
+email
+Service type: nanny in , nanny out, kindergarten
+profile pic: 'string'
+rating
+age
+availability
+working hours / day
+working days
+
+
+
+
+type-Users db
+_id
+type: Parent- SP
+
+
+order-db
+_id
+parent _id
+sp_id
+date on order:
+Products ordered: []
+Total price price + pp
+status
+
